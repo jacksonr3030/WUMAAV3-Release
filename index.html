@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <nav class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/minecraft-logo.png" class="logo-image">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <!-- 收缩状态下的汉堡图标 -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <!-- ml-auto：左边距自动，则元素自动靠右对齐 -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Connect</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </nav>
+    <!-- 图片轮播 -->
+    <div id="slides" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#slides" data-slide-to="0" class="active"></li>
+            <li data-target="#slides" data-slide-to="1"></li>
+            <li data-target="#slides" data-slide-to="2"></li>
+            <li data-target="#slides" data-slide-to="3"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/ben1.jpg" alt="">
+                <div class="carousel-caption">
+                    <h1 class="display-2">Penfolds</h1>
+                    <h4>Making remarkable wines since 1844</h4>
+                    <button type="button" class="btn btn-outline-light btn-lg">Products</button>
+                    <button type="button" class="btn btn-primary btn-lg">About Us</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/ben2.jpg" alt="" >
+            </div>
+            <div class="carousel-item">
+                <img src="images/ben3.jpg" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="images/ben4.jpg" alt="">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+    <!-- 历史介绍 -->
+    <div class="container-fluid">
+        <div class="row jumbotron">
+            <div class="col-12 col-md-10">
+                <p class="lead">
+                    Allegiance Wines was born from a pledge to produce the highest quality from vine to glass. Sourcing
+                    parcels of expressive wines that over-deliver in all facets, the Allegiance Wines commitment is to
+                    combine outstanding viticulture and winemaking every vintage. The highly awarded range of Allegiance
+                    Wines is literally a moving feast - bookmark this website and check back regularly or risk missing
+                    out on your next favourite wine!
+                </p>
+            </div>
+            <div class="col-12 col-md-2">
+                <a href="#">
+                    <button class="btn btn-outline-secondary btn-lg">Brand History</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 产品系列 -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Product Series</h1>
+            </div>
+            <hr>
+            <div class="col-12">
+                <p class="lead mb-3">Allegiance Wines are distributed by Cox Wine Merchants and available in select hotels,
+                    clubs, restaurants, bottleshops, cafes and wine clubs.</p>
+            </div>
+        </div>
+    </div>
+    <!-- 三列 -->
+    <div class="container-fluid padding products">
+        <div class="row text-center padding">
+            <div class="col-12 col-sm-6 col-md-4">
+                <img src="./images/ben3.jpg" alt="">
+                <h3>Shiraz</h3>
+                <p>Coles Italian Red Wine Vinegar</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4">
+                <img src="./images/ben5.jpg" alt="">
+                <h3>Shiraz</h3>
+                <p>Coles Italian Red Wine Vinegar</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="./images/ben6.jpg" alt="">
+                <h3>Shiraz</h3>
+                <p>Coles Italian Red Wine Vinegar</p>
+            </div>
+        </div>
+        <hr class="my-4">
+    </div>
+    <!-- 两列 文字+图片 -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-12 col-md-8">
+                <h2>With age comes character...</h2>
+                <p>Coles Supermarkets Australia Pty Ltd, trading as Coles, is an Australian supermarket, retail
+                    and consumer services chain, headquartered in Melbourne as part of the Coles Group.</p>
+                <p>Along with our amazing range of Australian regions, ranges and varietals - Allegiance Wines also
+                    imports some amazing French Rose from Domaine Feraud & Estandon in Provence and a delicious Italian
+                    Prosecco made by Anna Spinato in Veneto.</p>
+                <p>Allegiance Wines are distributed by Cox Wine Merchants and available in select hotels, clubs,
+                    restaurants, bottleshops, cafes and wine clubs.</p>
+                <p>Will you make the pledge to Allegiance Wines?</p>
+                <a href="#" class="btn btn-primary mb-3">Learn More</a>
+            </div>
+            <div class="col-12 col-md-4">
+                <img src="images/ben2-wide.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <!-- 固定背景的Banner -->
+    <figure>
+        <div class="fixed-wrap">
+            <div id="fixed">
+
+            </div>
+        </div>
+    </figure>
+    <!-- 下拉式gif -->
+    <button class="fun" data-toggle="collapse" data-target="#gif-image">
+        Click for dropdown gif...
+    </button>
+    <div id="gif-image" class="collapse">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <img class="gif" src="/images/wine1.gif" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <img class="gif" src="/images/wine2.gif" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <img class="gif" src="/images/wine3.gif" alt="">
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <img class="gif" src="/images/wine4.gif" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 商业合作Meet the team -->
+    <div class="container-fluid padding">
+        <div class="row welcome text-center">
+            <div class="col-12">
+                <h1 class="display-4">Meet The Team</h1>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- 卡片 -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/team1.jpeg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe</h4>
+                        <p class="card-text">Utilities used comfotable zone throughout styling icon definitions</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/team2.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Mary Joe</h4>
+                        <p class="card-text">Where variables are defined that are used throughout styling container</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/team3.jpg" alt="">
+                    <div class="card-body">
+                        <h4 class="card-title">Carina Lean</h4>
+                        <p class="card-text">Compile your code and get to using those new icons in your project!</p>
+                        <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 两列 文字+图片 -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-12 col-md-4">
+                <img src="images/boss.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-8 founder-text">
+                <h2>About Our Founder</h2>
+                <p>Coles Supermarkets Australia Pty Ltd, trading as Coles, is an Australian supermarket, retail
+                    and consumer services chain, headquartered in Melbourne as part of the Coles Group.</p>
+                <p>Along with our amazing range of Australian regions, ranges and varietals - Allegiance Wines also
+                    imports some amazing French Rose from Domaine Feraud & Estandon in Provence and a delicious Italian
+                    Prosecco made by Anna Spinato in Veneto.</p>
+                <p>Allegiance Wines are distributed by Cox Wine Merchants and available in select hotels, clubs,
+                    restaurants, bottleshops, cafes and wine clubs.</p>
+                <p>Will you make the pledge to Allegiance Wines?</p>
+            </div>
+        </div>
+    </div>
+    <hr class="my-4">
+    <!-- 联系方式 -->
+    <div class="container-fluid py-5">
+        <div class="row text-center">
+            <div class="col-12">
+                <h2>Connect</h2>
+            </div>
+            <div class="col-12 social padding">
+                <a href="#">
+                    <img src="images/iconfinder_1_Facebook_colored_svg_copy_5296499.png">
+                </a>
+                <a href="#">
+                    <img src="images/iconfinder_1_Twitter2_colored_svg_5296515.png">
+                </a>
+                <a href="#">
+                    <img src="images/iconfinder_github_291716.png">
+                </a>
+                <a href="#">
+                    <img src="images/iconfinder_2018_social_media_popular_app_logo_skype_3225186.png">
+                </a>
+                <a href="#">
+                    <img src="images/iconfinder_2018_social_media_popular_app_logo_tumblr_3225184.png">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container-fluid py-5">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="images/minecraft-logo.png">
+                    <hr class="light">
+                    <p>555-55-555</p>
+                    <p>email@myemail.com</p>
+                    <p>100 Street Name Address</p>
+                    <p>City, State, 00000</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Our hours</h5>
+                    <hr class="light">
+                    <p>Monday: 9am - 5pm</p>
+                    <p>Saturday: 10am - 4pm</p>
+                    <p>Sunday: closed </p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Service Area</h5>
+                    <hr class="light">
+                    <p>City, State, 00000</p>
+                    <p>City, State, 00000</p>
+                    <p>City, State, 00000</p>
+                </div>
+                <!-- 网站版权 -->
+                <div class="col-12">
+                    <hr class="light">
+                    <h5>&copy; testweb.com</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

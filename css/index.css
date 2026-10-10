@@ -1,0 +1,141 @@
+.logo-image{
+    width: 120px;
+}
+.navbar-nav li{
+    padding-right: 2rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+/* 轮播图容器 */
+#slides .carousel-inner .carousel-item{
+    max-height: 800px;
+    overflow: hidden;
+}
+/* 轮播图 */
+/* !!!!!!!!!!!!!!!不知道怎么解决，图片溢出后居中显示!!!!!!!!!!!!!!!!!!! */
+#slides .carousel-inner img{
+    width: 100%;
+    height: auto;
+}
+/* 轮播图上的文字和按钮 */
+.carousel-caption{
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-size: 800%;
+    font-weight: 500;
+    /* text-shadow: 1px 1px 10px white; */
+}
+.carousel-caption h4{
+    /* font-size: 200%; */
+    /* font-weight: 500; */
+    padding-bottom: 2rem;
+}
+
+.jumbotron{
+    padding: 1.5rem!important;
+}
+
+/* 这个fix 有问题，原始视频没有相关代码，图片并没有被定住 */
+#fixed{
+    background-image: url("../images/mac.png");
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+/* .fixed-wrap{
+    width: 100%;
+    height: 200px;
+    background-image: url("../images/mac.png");
+} */
+.padding{
+    padding-bottom: 2rem;
+}
+
+.welcome{
+    width: 75%!important;
+    margin: 0 auto !important;
+    padding-top: 2rem;
+}
+
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 85%;
+    /* margin-top: .3rem; */
+}
+
+.products img{
+    /* width: 240px; */
+    width: 80%;
+}
+.products h3{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+/* 显示gif下拉菜单的按钮 */
+.fun{
+    width: 100%;
+    margin-bottom:2rem ;
+}
+.gif{
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.card{
+    margin-bottom: 2rem;
+}
+
+.social img{
+    width: 48px;
+    margin: 1rem 2rem;
+    transition: all 0.2s;
+}
+.social img:hover{
+    /* box-shadow:2px 2px 10px black; */
+    transform: scale(1.4);
+}
+
+footer{
+    background-color: #3f3f3f;
+    color: #dfdfdf;
+}
+
+hr.light{
+    border-top: #dfdfdf 1px solid;
+    width: 80%;
+}
+
+footer img{
+    width: 160px;
+}
+
+@media (max-width: 768px){
+    .social img{
+        margin: 1rem 0.5rem;
+    }
+    .founder-text{
+        margin-top: 1rem;
+    }
+    .carousel-caption{
+        position: absolute;
+        top:50%;
+        transform: translateY(-80%);
+    }
+    .carousel-caption h1{
+        font-size: 300%;
+        font-weight: 400;
+    }
+    .carousel-caption h4{
+        font-size: 100%;
+        padding-bottom: 1rem;
+    }
+    .welcome h1{
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
